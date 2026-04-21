@@ -1,0 +1,32 @@
+# ============================================================
+# Emausoft Analytics — .gitignore
+# ============================================================
+
+# Ambiente virtual
+venv/
+env/
+.venv/
+
+# Variables de entorno — contiene contraseñas
+.env
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Base de datos local
+*.db
+*.sqlite
